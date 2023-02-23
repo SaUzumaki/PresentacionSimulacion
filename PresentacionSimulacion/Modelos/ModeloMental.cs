@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PresentacionSimulacion.Sistemas
+namespace PresentacionSimulacion.Modelos
 {
-    public partial class SistemaAbierto : Form
+    public partial class ModeloMental : Form
     {
-        public SistemaAbierto()
+        public ModeloMental()
         {
             InitializeComponent();
         }
@@ -32,8 +32,8 @@ namespace PresentacionSimulacion.Sistemas
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SistemaContinuo sistemaContinuo = new SistemaContinuo();
-            sistemaContinuo.Show();
+            ModeloEstatico modelo = new ModeloEstatico();
+            modelo.Show();
         }
     }
 }

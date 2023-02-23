@@ -28,5 +28,12 @@ namespace PresentacionSimulacion.Sistemas
         {
             Application.Exit();
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SistemaDiscreto sistemaDiscreto = new SistemaDiscreto();
+            sistemaDiscreto.Show();
+        }
     }
 }

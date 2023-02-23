@@ -123,10 +123,10 @@ entre sí y que se modelan y simulan para entender su comportamiento en diferent
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSiguiente.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAhIAAAISCAYAAACZPSa/AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAA/7JJREFUeF7s/Ym3bWl21Qfyj2AhlKlUqm8AIUsIBEgqQGAkWxTIRVMIW1Agu6AK
+        wQAADsEBuJFr7QAA/7JJREFUeF7s/Ym3bWl21Qfyj2AhlKlUqm8AIUsIBEgqQGAkWxTIRVMIW1Agu6AK
         TFM0BQxMgcE0RVMCbKyhYdpS0RmMKZBpJIEL0wiQjARIynwRkZGRqcg++jh15t577jP3PHN937f3Oe/F
         y8z7G+Mb31pzzbW+vd+95+4T975340edHjNvvvnmEo2x119RzWnN9xrye11PYs/so9fxOO5J+9P8e9M6
         A3HvzJFr8pnKSP9eWmcg7p05ck0+Uxnp75FmVGci7p3Zq4PWfMIYu+oJrye/ah4nv9Krg9Z8whi76gmv
@@ -1601,7 +1601,7 @@ entre sí y que se modelan y simulan para entender su comportamiento en diferent
         fypf2tboQZxBAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSiguiente.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkK
         DA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQ

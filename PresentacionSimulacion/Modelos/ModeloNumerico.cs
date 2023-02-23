@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PresentacionSimulacion.Opciones
+namespace PresentacionSimulacion.Modelos
 {
-    public partial class Frontera : Form
+    public partial class ModeloNumerico : Form
     {
-        public Frontera()
+        public ModeloNumerico()
         {
             InitializeComponent();
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -27,6 +22,11 @@ namespace PresentacionSimulacion.Opciones
             this.Hide();
             Menu menu = new Menu();
             menu.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

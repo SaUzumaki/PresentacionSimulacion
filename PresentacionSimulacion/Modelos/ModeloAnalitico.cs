@@ -6,13 +6,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PresentacionSimulacion.Modelos;
 using System.Windows.Forms;
 
-namespace PresentacionSimulacion.Sistemas
+namespace PresentacionSimulacion.Modelos
 {
-    public partial class SistemaAbierto : Form
+    public partial class ModeloAnalitico : Form
     {
-        public SistemaAbierto()
+        public ModeloAnalitico()
         {
             InitializeComponent();
         }
@@ -32,8 +33,8 @@ namespace PresentacionSimulacion.Sistemas
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SistemaContinuo sistemaContinuo = new SistemaContinuo();
-            sistemaContinuo.Show();
+            ModeloFisico model = new ModeloFisico();
+            model.Show();
         }
     }
 }

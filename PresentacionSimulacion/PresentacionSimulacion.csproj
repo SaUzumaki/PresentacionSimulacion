@@ -58,17 +58,53 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Opciones\Frontera.cs">
+    <Compile Include="Modelos\ModeloAnalitico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Opciones\Frontera.Designer.cs">
-      <DependentUpon>Frontera.cs</DependentUpon>
+    <Compile Include="Modelos\ModeloAnalitico.Designer.cs">
+      <DependentUpon>ModeloAnalitico.cs</DependentUpon>
     </Compile>
-    <Compile Include="Opciones\Sistema.cs">
+    <Compile Include="Modelos\ModeloDinamico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Opciones\Sistema.Designer.cs">
-      <DependentUpon>Sistema.cs</DependentUpon>
+    <Compile Include="Modelos\ModeloDinamico.Designer.cs">
+      <DependentUpon>ModeloDinamico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\ModeloEstatico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\ModeloEstatico.Designer.cs">
+      <DependentUpon>ModeloEstatico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\ModeloFisico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\ModeloFisico.Designer.cs">
+      <DependentUpon>ModeloFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\ModeloMatematico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\ModeloMatematico.Designer.cs">
+      <DependentUpon>ModeloMatematico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\ModeloMental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\ModeloMental.Designer.cs">
+      <DependentUpon>ModeloMental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\ModeloNumerico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\ModeloNumerico.Designer.cs">
+      <DependentUpon>ModeloNumerico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\ModelosMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\ModelosMenu.Designer.cs">
+      <DependentUpon>ModelosMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,11 +150,29 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Opciones\Frontera.resx">
-      <DependentUpon>Frontera.cs</DependentUpon>
+    <EmbeddedResource Include="Modelos\ModeloAnalitico.resx">
+      <DependentUpon>ModeloAnalitico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Opciones\Sistema.resx">
-      <DependentUpon>Sistema.cs</DependentUpon>
+    <EmbeddedResource Include="Modelos\ModeloDinamico.resx">
+      <DependentUpon>ModeloDinamico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\ModeloEstatico.resx">
+      <DependentUpon>ModeloEstatico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\ModeloFisico.resx">
+      <DependentUpon>ModeloFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\ModeloMatematico.resx">
+      <DependentUpon>ModeloMatematico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\ModeloMental.resx">
+      <DependentUpon>ModeloMental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\ModeloNumerico.resx">
+      <DependentUpon>ModeloNumerico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\ModelosMenu.resx">
+      <DependentUpon>ModelosMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

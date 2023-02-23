@@ -35,5 +35,40 @@ namespace PresentacionSimulacion.Sistemas
             SistemaAbierto sistemaAbierto = new SistemaAbierto();
             sistemaAbierto.Show();
         }
+
+        private void btnFrontera_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Fronteras fronteras = new Fronteras();
+            fronteras.Show();
+        }
+
+        private void btnSisDisc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SistemaDiscreto sistemaDiscreto = new SistemaDiscreto();
+            sistemaDiscreto.Show();
+        }
+
+        private void btnSisCont_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SistemaContinuo sistemaContinuo = new SistemaContinuo();
+            sistemaContinuo.Show();
+        }
+
+        private void btnSisCerr_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SistemaCerrado sistemaCerrado = new SistemaCerrado();
+            sistemaCerrado.Show();
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Fronteras fronteras = new Fronteras();
+            fronteras.Show(); 
+        }
     }
 }

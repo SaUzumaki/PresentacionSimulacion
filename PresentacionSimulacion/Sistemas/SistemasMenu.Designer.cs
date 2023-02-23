@@ -29,58 +29,62 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SistemasMenu));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnSistemaCerrado = new System.Windows.Forms.Button();
+            this.btnSisCont = new System.Windows.Forms.Button();
+            this.btnSisDisc = new System.Windows.Forms.Button();
+            this.btnFrontera = new System.Windows.Forms.Button();
+            this.btnSisCerr = new System.Windows.Forms.Button();
             this.btnSistemaAbierto = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSisCont
             // 
-            this.button1.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(280, 348);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(236, 87);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Sistema Continuo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSisCont.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSisCont.Location = new System.Drawing.Point(280, 348);
+            this.btnSisCont.Name = "btnSisCont";
+            this.btnSisCont.Size = new System.Drawing.Size(236, 87);
+            this.btnSisCont.TabIndex = 13;
+            this.btnSisCont.Text = "Sistema Continuo";
+            this.btnSisCont.UseVisualStyleBackColor = true;
+            this.btnSisCont.Click += new System.EventHandler(this.btnSisCont_Click);
             // 
-            // button3
+            // btnSisDisc
             // 
-            this.button3.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(280, 265);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(236, 87);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Sistema Discreto";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSisDisc.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSisDisc.Location = new System.Drawing.Point(280, 265);
+            this.btnSisDisc.Name = "btnSisDisc";
+            this.btnSisDisc.Size = new System.Drawing.Size(236, 87);
+            this.btnSisDisc.TabIndex = 12;
+            this.btnSisDisc.Text = "Sistema Discreto";
+            this.btnSisDisc.UseVisualStyleBackColor = true;
+            this.btnSisDisc.Click += new System.EventHandler(this.btnSisDisc_Click);
             // 
-            // button2
+            // btnFrontera
             // 
-            this.button2.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(47, 265);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(236, 87);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Fronteras del Sistema";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnFrontera.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFrontera.Location = new System.Drawing.Point(47, 265);
+            this.btnFrontera.Name = "btnFrontera";
+            this.btnFrontera.Size = new System.Drawing.Size(236, 87);
+            this.btnFrontera.TabIndex = 11;
+            this.btnFrontera.Text = "Fronteras del Sistema";
+            this.btnFrontera.UseVisualStyleBackColor = true;
+            this.btnFrontera.Click += new System.EventHandler(this.btnFrontera_Click);
             // 
-            // btnSistemaCerrado
+            // btnSisCerr
             // 
-            this.btnSistemaCerrado.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSistemaCerrado.Location = new System.Drawing.Point(513, 308);
-            this.btnSistemaCerrado.Name = "btnSistemaCerrado";
-            this.btnSistemaCerrado.Size = new System.Drawing.Size(236, 87);
-            this.btnSistemaCerrado.TabIndex = 10;
-            this.btnSistemaCerrado.Text = "Sistema Cerrrado";
-            this.btnSistemaCerrado.UseVisualStyleBackColor = true;
+            this.btnSisCerr.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSisCerr.Location = new System.Drawing.Point(513, 308);
+            this.btnSisCerr.Name = "btnSisCerr";
+            this.btnSisCerr.Size = new System.Drawing.Size(236, 87);
+            this.btnSisCerr.TabIndex = 10;
+            this.btnSisCerr.Text = "Sistema Cerrrado";
+            this.btnSisCerr.UseVisualStyleBackColor = true;
+            this.btnSisCerr.Click += new System.EventHandler(this.btnSisCerr_Click);
             // 
             // btnSistemaAbierto
             // 
@@ -146,34 +150,35 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // btnSiguiente
             // 
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(635, 401);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(153, 46);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Siguiente";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnSiguiente.BackColor = System.Drawing.Color.Transparent;
+            this.btnSiguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSiguiente.BackgroundImage")));
+            this.btnSiguiente.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguiente.Image")));
+            this.btnSiguiente.Location = new System.Drawing.Point(635, 401);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(153, 46);
+            this.btnSiguiente.TabIndex = 19;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // SistemasMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnSistemaCerrado);
+            this.Controls.Add(this.btnSisCont);
+            this.Controls.Add(this.btnSisDisc);
+            this.Controls.Add(this.btnFrontera);
+            this.Controls.Add(this.btnSisCerr);
             this.Controls.Add(this.btnSistemaAbierto);
             this.Name = "SistemasMenu";
             this.Text = "SistemasMenu";
@@ -183,16 +188,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btnSistemaCerrado;
+        private System.Windows.Forms.Button btnSisCont;
+        private System.Windows.Forms.Button btnSisDisc;
+        private System.Windows.Forms.Button btnFrontera;
+        private System.Windows.Forms.Button btnSisCerr;
         private System.Windows.Forms.Button btnSistemaAbierto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnSiguiente;
     }
 }

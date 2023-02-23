@@ -6,8 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PresentacionSimulacion.Opciones;
 using System.Windows.Forms;
+using PresentacionSimulacion.Modelos;
 using PresentacionSimulacion.Sistemas;
 
 namespace PresentacionSimulacion
@@ -31,6 +31,13 @@ namespace PresentacionSimulacion
             this.Hide();
             SistemasMenu sistemasMenu = new SistemasMenu();
             sistemasMenu.Show();
+        }
+
+        private void btnModelos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModelosMenu modelosMenu = new ModelosMenu();
+            modelosMenu.Show();
         }
     }
 }

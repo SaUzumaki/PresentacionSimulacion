@@ -49,6 +49,7 @@
             this.btnSiguiente.TabIndex = 30;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // btnSalir
             // 

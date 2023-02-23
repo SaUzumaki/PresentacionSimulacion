@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>Las fronteras del sistema definen qué elementos del entorno del sistema se incluyen en el modelo y cuáles se excluyen.
-
-Las fronteras del sistema son importantes porque ayudan a definir el alcance de la simulación. Al establecer las fronteras del sistema,
- se determina qué aspectos del sistema se incluyen en el modelo y cuáles se ignoran, lo que puede afectar significativamente los resultados de la simulación.
-
-En general, las fronteras del sistema se establecen en función de los objetivos de la simulación y de la información que se desea obtener del modelo. 
-Por ejemplo, si se está simulando el comportamiento de un sistema de producción en una fábrica, las fronteras del sistema podrían incluir los 
-procesos de producción y los trabajadores de la fábrica, pero podrían excluir otros factores como las condiciones meteorológicas externas 
-o las decisiones de los gerentes de la empresa.
-
-Es importante tener en cuenta que las fronteras del sistema no son fijas y pueden variar según los objetivos de la simulación y
- las necesidades de los investigadores o usuarios de la simulación. Además, es posible que sea necesario ajustar las fronteras 
-del sistema durante la simulación si se descubren nuevas variables importantes que deben ser incluidas o si se determina que 
-ciertas variables no son relevantes y deben ser excluidas.</value>
-  </data>
 </root>

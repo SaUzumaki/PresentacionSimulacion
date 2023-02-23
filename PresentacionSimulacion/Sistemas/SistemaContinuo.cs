@@ -29,5 +29,12 @@ namespace PresentacionSimulacion.Sistemas
         {
             Application.Exit();
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SistemaCerrado sistemaCerrado = new SistemaCerrado();
+            sistemaCerrado.Show();
+        }
     }
 }

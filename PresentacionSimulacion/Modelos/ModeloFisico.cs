@@ -4,15 +4,16 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using PresentacionSimulacion.Modelos;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PresentacionSimulacion.Sistemas
+namespace PresentacionSimulacion.Modelos
 {
-    public partial class SistemaAbierto : Form
+    public partial class ModeloFisico : Form
     {
-        public SistemaAbierto()
+        public ModeloFisico()
         {
             InitializeComponent();
         }
@@ -32,8 +33,8 @@ namespace PresentacionSimulacion.Sistemas
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SistemaContinuo sistemaContinuo = new SistemaContinuo();
-            sistemaContinuo.Show();
+            ModeloDinamico model = new ModeloDinamico();
+            model.Show();
         }
     }
 }

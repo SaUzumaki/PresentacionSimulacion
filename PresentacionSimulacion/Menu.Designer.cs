@@ -31,6 +31,7 @@
             this.lblOpciones = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSistema = new System.Windows.Forms.Button();
+            this.btnModelos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblOpciones
@@ -65,11 +66,23 @@
             this.btnSistema.UseVisualStyleBackColor = true;
             this.btnSistema.Click += new System.EventHandler(this.btnSistema_Click);
             // 
+            // btnModelos
+            // 
+            this.btnModelos.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModelos.Location = new System.Drawing.Point(443, 126);
+            this.btnModelos.Name = "btnModelos";
+            this.btnModelos.Size = new System.Drawing.Size(236, 87);
+            this.btnModelos.TabIndex = 4;
+            this.btnModelos.Text = "Modelo";
+            this.btnModelos.UseVisualStyleBackColor = true;
+            this.btnModelos.Click += new System.EventHandler(this.btnModelos_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnModelos);
             this.Controls.Add(this.btnSistema);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblOpciones);
@@ -83,5 +96,6 @@
         private System.Windows.Forms.Label lblOpciones;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnSistema;
+        private System.Windows.Forms.Button btnModelos;
     }
 }
