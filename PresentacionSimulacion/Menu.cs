@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PresentacionSimulacion.Opciones;
 using System.Windows.Forms;
+using PresentacionSimulacion.Sistemas;
 
 namespace PresentacionSimulacion
 {
@@ -18,12 +19,7 @@ namespace PresentacionSimulacion
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Frontera frontera = new Frontera();
-            frontera.Show();
-        }
+       
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -33,8 +29,8 @@ namespace PresentacionSimulacion
         private void btnSistema_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Sistema sistema = new Sistema();
-            sistema.Show();
+            SistemasMenu sistemasMenu = new SistemasMenu();
+            sistemasMenu.Show();
         }
     }
 }
