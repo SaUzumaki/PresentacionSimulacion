@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PresentacionSimulacion.Sistemas
 {
-    public partial class SistemasMenu : Form
+    public partial class SistemaContinuo : Form
     {
-        public SistemasMenu()
+        public SistemaContinuo()
         {
             InitializeComponent();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -27,13 +22,12 @@ namespace PresentacionSimulacion.Sistemas
             this.Hide();
             Menu menu = new Menu();
             menu.Show();
+
         }
 
-        private void btnSistemaAbierto_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            SistemaAbierto sistemaAbierto = new SistemaAbierto();
-            sistemaAbierto.Show();
+            Application.Exit();
         }
     }
 }

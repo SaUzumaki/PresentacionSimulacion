@@ -91,6 +91,7 @@
             this.btnSistemaAbierto.TabIndex = 9;
             this.btnSistemaAbierto.Text = "Sistema Abierto";
             this.btnSistemaAbierto.UseVisualStyleBackColor = true;
+            this.btnSistemaAbierto.Click += new System.EventHandler(this.btnSistemaAbierto_Click);
             // 
             // label1
             // 
