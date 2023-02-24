@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PresentacionSimulacion.Modelos;
+using PresentacionSimulacion.Ejemplos;
 using System.Windows.Forms;
 
 namespace PresentacionSimulacion.Modelos
@@ -35,6 +36,14 @@ namespace PresentacionSimulacion.Modelos
             this.Hide();
             ModeloFisico model = new ModeloFisico();
             model.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModelAnaliticoEjem modelAnaliticoEjem = new ModelAnaliticoEjem();
+            modelAnaliticoEjem.Show();
+
         }
     }
 }

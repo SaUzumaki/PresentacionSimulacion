@@ -35,7 +35,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSiguiente
@@ -79,13 +78,14 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(576, 180);
+            this.button4.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(634, 203);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 46);
+            this.button4.Size = new System.Drawing.Size(112, 32);
             this.button4.TabIndex = 57;
             this.button4.Text = "Ver Ejemplo";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label2
             // 
@@ -105,23 +105,11 @@
             this.label1.TabIndex = 55;
             this.label1.Text = "Modelo Analitico";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(324, 202);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 46);
-            this.button1.TabIndex = 61;
-            this.button1.Text = "Ver Ejemplo";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // ModeloAnalitico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMenu);
@@ -142,6 +130,5 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
     }
 }

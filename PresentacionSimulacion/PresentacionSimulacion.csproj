@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejemplos\ModelAnaliticoEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelAnaliticoEjem.Designer.cs">
+      <DependentUpon>ModelAnaliticoEjem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     <Compile Include="Sistemas\SistemasMenu.Designer.cs">
       <DependentUpon>SistemasMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ejemplos\ModelAnaliticoEjem.resx">
+      <DependentUpon>ModelAnaliticoEjem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +191,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Sistemas\Fronteras.resx">
       <DependentUpon>Fronteras.cs</DependentUpon>
@@ -213,6 +223,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\TecNM-ITT-sgc-2018-color-scaled-e1646127126124-1568x479.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
