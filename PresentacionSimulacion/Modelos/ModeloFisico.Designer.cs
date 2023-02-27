@@ -93,14 +93,14 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(414, 156);
             this.label2.TabIndex = 62;
-            this.label2.Text = "Definicion Fronteras del sistema";
+            this.label2.Text = resources.GetString("label2.Text");
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(40, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(706, 111);
+            this.label1.Size = new System.Drawing.Size(356, 70);
             this.label1.TabIndex = 61;
             this.label1.Text = "Modelo Fisico";
             // 

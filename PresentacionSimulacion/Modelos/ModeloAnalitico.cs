@@ -45,5 +45,10 @@ namespace PresentacionSimulacion.Modelos
             modelAnaliticoEjem.Show();
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

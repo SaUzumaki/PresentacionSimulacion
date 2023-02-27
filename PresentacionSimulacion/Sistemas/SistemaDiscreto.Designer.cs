@@ -93,7 +93,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(414, 156);
             this.label2.TabIndex = 32;
-            this.label2.Text = "Definicion Fronteras del sistema";
+            this.label2.Text = "Son los sistemas donde los cambios en las actividades son bruscos o violentos, ge" +
+    "neralmente perceptibles.";
             // 
             // label1
             // 

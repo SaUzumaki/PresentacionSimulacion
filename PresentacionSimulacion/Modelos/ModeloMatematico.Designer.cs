@@ -93,7 +93,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(414, 156);
             this.label2.TabIndex = 38;
-            this.label2.Text = "Definicion Fronteras del sistema";
+            this.label2.Text = resources.GetString("label2.Text");
             // 
             // label1
             // 
