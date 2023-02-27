@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PresentacionSimulacion.Ejemplos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,13 @@ namespace PresentacionSimulacion.Modelos
             this.Hide();
             ModeloEstatico modelo = new ModeloEstatico();
             modelo.Show();
+        }
+
+        private void btnEjemplo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModelMetalEjem ejemp = new ModelMetalEjem();
+            ejemp.Show();
         }
     }
 }

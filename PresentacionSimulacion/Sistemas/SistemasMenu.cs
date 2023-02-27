@@ -34,15 +34,7 @@ namespace PresentacionSimulacion.Sistemas
             this.Hide();
             SistemaAbierto sistemaAbierto = new SistemaAbierto();
             sistemaAbierto.Show();
-        }
-
-        private void btnFrontera_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Fronteras fronteras = new Fronteras();
-            fronteras.Show();
-        }
-
+        }        
         private void btnSisDisc_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -67,8 +59,8 @@ namespace PresentacionSimulacion.Sistemas
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Fronteras fronteras = new Fronteras();
-            fronteras.Show(); 
+            SistemaDiscreto sistemaDiscreto = new SistemaDiscreto();
+            sistemaDiscreto.Show();
         }
     }
 }

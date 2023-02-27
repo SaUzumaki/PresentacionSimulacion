@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using PresentacionSimulacion.Ejemplos;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -34,6 +35,13 @@ namespace PresentacionSimulacion.Modelos
             this.Hide();
             ModeloNumerico model = new ModeloNumerico();
             model.Show();
+        }
+
+        private void btnEjemplo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModelDinEjem ejemp = new ModelDinEjem();
+            ejemp.Show();
         }
     }
 }

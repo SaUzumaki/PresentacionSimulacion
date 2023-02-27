@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PresentacionSimulacion.Modelos;
 using System.Windows.Forms;
+using PresentacionSimulacion.Ejemplos;
 
 namespace PresentacionSimulacion.Modelos
 {
@@ -35,6 +36,13 @@ namespace PresentacionSimulacion.Modelos
             this.Hide();
             ModeloMental modelo = new ModeloMental();
             modelo.Show();
+        }
+
+        private void btnEjemplo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModelMatEjem ejemp = new ModelMatEjem();
+            ejemp.Show();
         }
     }
 }

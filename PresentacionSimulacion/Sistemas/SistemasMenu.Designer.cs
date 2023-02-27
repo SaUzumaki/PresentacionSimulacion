@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SistemasMenu));
             this.btnSisCont = new System.Windows.Forms.Button();
             this.btnSisDisc = new System.Windows.Forms.Button();
-            this.btnFrontera = new System.Windows.Forms.Button();
             this.btnSisCerr = new System.Windows.Forms.Button();
             this.btnSistemaAbierto = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,7 +55,7 @@
             // btnSisDisc
             // 
             this.btnSisDisc.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSisDisc.Location = new System.Drawing.Point(280, 265);
+            this.btnSisDisc.Location = new System.Drawing.Point(47, 265);
             this.btnSisDisc.Name = "btnSisDisc";
             this.btnSisDisc.Size = new System.Drawing.Size(236, 87);
             this.btnSisDisc.TabIndex = 12;
@@ -64,21 +63,10 @@
             this.btnSisDisc.UseVisualStyleBackColor = true;
             this.btnSisDisc.Click += new System.EventHandler(this.btnSisDisc_Click);
             // 
-            // btnFrontera
-            // 
-            this.btnFrontera.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFrontera.Location = new System.Drawing.Point(47, 265);
-            this.btnFrontera.Name = "btnFrontera";
-            this.btnFrontera.Size = new System.Drawing.Size(236, 87);
-            this.btnFrontera.TabIndex = 11;
-            this.btnFrontera.Text = "Fronteras del Sistema";
-            this.btnFrontera.UseVisualStyleBackColor = true;
-            this.btnFrontera.Click += new System.EventHandler(this.btnFrontera_Click);
-            // 
             // btnSisCerr
             // 
             this.btnSisCerr.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSisCerr.Location = new System.Drawing.Point(513, 308);
+            this.btnSisCerr.Location = new System.Drawing.Point(280, 265);
             this.btnSisCerr.Name = "btnSisCerr";
             this.btnSisCerr.Size = new System.Drawing.Size(236, 87);
             this.btnSisCerr.TabIndex = 10;
@@ -177,7 +165,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSisCont);
             this.Controls.Add(this.btnSisDisc);
-            this.Controls.Add(this.btnFrontera);
             this.Controls.Add(this.btnSisCerr);
             this.Controls.Add(this.btnSistemaAbierto);
             this.Name = "SistemasMenu";
@@ -190,7 +177,6 @@
 
         private System.Windows.Forms.Button btnSisCont;
         private System.Windows.Forms.Button btnSisDisc;
-        private System.Windows.Forms.Button btnFrontera;
         private System.Windows.Forms.Button btnSisCerr;
         private System.Windows.Forms.Button btnSistemaAbierto;
         private System.Windows.Forms.Label label1;

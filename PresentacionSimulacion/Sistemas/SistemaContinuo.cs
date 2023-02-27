@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PresentacionSimulacion.Ejemplos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,6 +36,13 @@ namespace PresentacionSimulacion.Sistemas
             this.Hide();
             SistemaCerrado sistemaCerrado = new SistemaCerrado();
             sistemaCerrado.Show();
+        }
+
+        private void btnEjemplo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SistemaContinuoEjemp ejem = new SistemaContinuoEjemp();
+            ejem.Show();
         }
     }
 }

@@ -52,6 +52,66 @@
     <Compile Include="Ejemplos\ModelAnaliticoEjem.Designer.cs">
       <DependentUpon>ModelAnaliticoEjem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejemplos\ModelDinEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelDinEjem.Designer.cs">
+      <DependentUpon>ModelDinEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\ModelFisEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelFisEjem.Designer.cs">
+      <DependentUpon>ModelFisEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\ModelMatEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelMatEjem.Designer.cs">
+      <DependentUpon>ModelMatEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\ModelMetalEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelMetalEjem.Designer.cs">
+      <DependentUpon>ModelMetalEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\ModelNumEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelNumEjem.Designer.cs">
+      <DependentUpon>ModelNumEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\ModelStaticEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\ModelStaticEjem.Designer.cs">
+      <DependentUpon>ModelStaticEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaAbiertoEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaAbiertoEjem.Designer.cs">
+      <DependentUpon>SistemaAbiertoEjem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaCerradoEjemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaCerradoEjemp.Designer.cs">
+      <DependentUpon>SistemaCerradoEjemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaContinuoEjemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaContinuoEjemp.Designer.cs">
+      <DependentUpon>SistemaContinuoEjemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaDiscEjem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\SistemaDiscEjem.Designer.cs">
+      <DependentUpon>SistemaDiscEjem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,12 +174,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sistemas\Fronteras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sistemas\Fronteras.Designer.cs">
-      <DependentUpon>Fronteras.cs</DependentUpon>
-    </Compile>
     <Compile Include="Sistemas\SistemaAbierto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +206,36 @@
     </Compile>
     <EmbeddedResource Include="Ejemplos\ModelAnaliticoEjem.resx">
       <DependentUpon>ModelAnaliticoEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\ModelDinEjem.resx">
+      <DependentUpon>ModelDinEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\ModelFisEjem.resx">
+      <DependentUpon>ModelFisEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\ModelMatEjem.resx">
+      <DependentUpon>ModelMatEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\ModelMetalEjem.resx">
+      <DependentUpon>ModelMetalEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\ModelNumEjem.resx">
+      <DependentUpon>ModelNumEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\ModelStaticEjem.resx">
+      <DependentUpon>ModelStaticEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\SistemaAbiertoEjem.resx">
+      <DependentUpon>SistemaAbiertoEjem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\SistemaCerradoEjemp.resx">
+      <DependentUpon>SistemaCerradoEjemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\SistemaContinuoEjemp.resx">
+      <DependentUpon>SistemaContinuoEjemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\SistemaDiscEjem.resx">
+      <DependentUpon>SistemaDiscEjem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -193,9 +277,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Sistemas\Fronteras.resx">
-      <DependentUpon>Fronteras.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Sistemas\SistemaAbierto.resx">
       <DependentUpon>SistemaAbierto.cs</DependentUpon>
     </EmbeddedResource>

@@ -8,6 +8,7 @@ using PresentacionSimulacion.Modelos;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PresentacionSimulacion.Ejemplos;
 
 namespace PresentacionSimulacion.Modelos
 {
@@ -35,6 +36,13 @@ namespace PresentacionSimulacion.Modelos
             this.Hide();
             ModeloDinamico model = new ModeloDinamico();
             model.Show();
+        }
+
+        private void btnEjemplo_ClientSizeChanged(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModelFisEjem ejemp = new ModelFisEjem();
+            ejemp.Show();
         }
     }
 }
