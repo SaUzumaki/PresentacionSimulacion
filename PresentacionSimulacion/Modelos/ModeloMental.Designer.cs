@@ -80,9 +80,9 @@
             this.label2.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(14, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(414, 156);
+            this.label2.Size = new System.Drawing.Size(414, 181);
             this.label2.TabIndex = 44;
-            this.label2.Text = "Definicion Fronteras del sistema";
+            this.label2.Text = resources.GetString("label2.Text");
             // 
             // label1
             // 
