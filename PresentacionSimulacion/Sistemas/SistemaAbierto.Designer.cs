@@ -35,6 +35,7 @@
             this.btnEjemplo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSiguiente
@@ -90,9 +91,9 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 180);
+            this.label2.Location = new System.Drawing.Point(12, 252);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(414, 156);
+            this.label2.Size = new System.Drawing.Size(414, 46);
             this.label2.TabIndex = 26;
             this.label2.Text = "Son aquellos sistemas cuyas actividades se ven modificadas por las actividades de" +
     " otros sistemas.";
@@ -106,11 +107,21 @@
             this.label1.TabIndex = 25;
             this.label1.Text = "Sistema Abierto";
             // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 122);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(424, 120);
+            this.label3.TabIndex = 31;
+            this.label3.Text = resources.GetString("label3.Text");
+            // 
             // SistemaAbierto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMenu);
@@ -119,6 +130,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SistemaAbierto";
             this.Text = "SistemaAbierto";
+            this.Load += new System.EventHandler(this.SistemaAbierto_Load);
             this.ResumeLayout(false);
 
         }
@@ -131,5 +143,6 @@
         private System.Windows.Forms.Button btnEjemplo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }

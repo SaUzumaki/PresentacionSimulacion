@@ -1635,6 +1635,6 @@
 </value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Son tangibles y se pueden percibir por medio de los sentidos.                                           +Gusto.                                                    +Vista.                                                   +Olfato.                                                  +Tacto.                                                  +Oido. </value>
+    <value>Son tangibles y se pueden percibir por medio de los sentidos.                                                                                                                   +Gusto.                                                    +Vista.                                                   +Olfato.                                                  +Tacto.                                                  +Oido. </value>
   </data>
 </root>

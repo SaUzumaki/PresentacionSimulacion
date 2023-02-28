@@ -43,5 +43,10 @@ namespace PresentacionSimulacion.Sistemas
             SistemaAbiertoEjem ejem = new SistemaAbiertoEjem();
             ejem.Show();
         }
+
+        private void SistemaAbierto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
