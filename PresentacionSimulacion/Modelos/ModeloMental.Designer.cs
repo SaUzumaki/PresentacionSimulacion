@@ -43,7 +43,7 @@
             this.btnSiguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSiguiente.BackgroundImage")));
             this.btnSiguiente.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguiente.Image")));
-            this.btnSiguiente.Location = new System.Drawing.Point(634, 394);
+            this.btnSiguiente.Location = new System.Drawing.Point(455, 315);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(153, 46);
             this.btnSiguiente.TabIndex = 48;
@@ -55,7 +55,7 @@
             // 
             this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSalir.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(634, 303);
+            this.btnSalir.Location = new System.Drawing.Point(455, 224);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(112, 32);
             this.btnSalir.TabIndex = 47;
@@ -67,7 +67,7 @@
             // 
             this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnMenu.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenu.Location = new System.Drawing.Point(634, 252);
+            this.btnMenu.Location = new System.Drawing.Point(455, 173);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(112, 32);
             this.btnMenu.TabIndex = 46;
@@ -97,7 +97,7 @@
             // 
             this.btnEjemplo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnEjemplo.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEjemplo.Location = new System.Drawing.Point(634, 196);
+            this.btnEjemplo.Location = new System.Drawing.Point(455, 117);
             this.btnEjemplo.Name = "btnEjemplo";
             this.btnEjemplo.Size = new System.Drawing.Size(112, 32);
             this.btnEjemplo.TabIndex = 77;
@@ -109,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(627, 411);
             this.Controls.Add(this.btnEjemplo);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnSalir);
